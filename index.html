@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="show-password.js" defer></script>
+  <script src="user-page.js" defer></script>
+  <title>Accessible registration form</title>
+</head>
+<body>
+<form class="login-form">
+  <label>Username</label>
+  <input type="text" name="username" id="username-input" placeholder="Enter username" required>
+  <label>Email</label>
+  <input type="email" name="email" id="email-input" placeholder="Enter email" required>
+  <label>Password</label>
+
+  <div class="password-field-container">
+    <input type="password" name="password" id="password-field" placeholder="Enter password" required>
+    <span id="password-toggle" onclick="showPassword()">Show</span>
+  </div>
+  <button type="submit" id="login-button" onclick="redirectUser(event)"><span>Login</span></button>
+</form>
+
+<section>
+  <h2>About us</h2>
+  <p>This is login menu</p>
+</section>
+
+<section>
+  <h2>Contact me</h2>
+  <p>Contact me example@email.com</p>
+</section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Login Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
