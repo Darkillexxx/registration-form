@@ -1,3 +1,1 @@
-Hi user, this is login form with show/hide password button. Also after clicking login, you redirect to user's page where you will see your info and log out button.
-Before launch do: npm install express.
-In console menu you will have link to website
+Hello, user! Below is a login form with a show/hide password button. After logging in, you'll be redirected to the user's page where you can view your information and find a logout button. Before launching, please run: npm install express. You'll find the website link in the console menu.
